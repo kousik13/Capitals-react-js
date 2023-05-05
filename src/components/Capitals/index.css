@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .capital-container {
+    padding-top: 44px;
+    padding-left: 64px;
+    padding-right: 64px;
+    max-width: 520px;
+  }
+}
+.capital-select {
+  border-radius: 5px;
+  width: 150px;
+  padding-left: 20px;
+  font-family: 20px;
+  border-color: #cbd2d9;
+}
+
+.capital-container {
+  background-color: #f8fafc;
+  padding: 60px;
+  font-family: 'Roboto';
+  border-radius: 20px;
+}
+
+.option {
+  font-family: 'Roboto';
+  padding-left: 20px;
+  color: #1e293b;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #1e293b;
+}
+.question {
+  font-family: 'Roboto';
+  padding-left: 20px;
+}
+
+.country {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+}
